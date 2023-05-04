@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Check the App components 1`] = `
+<h1>
+  Hello, I am a fish Header
+</h1>
+`;

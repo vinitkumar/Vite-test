@@ -2,15 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './Header'
 
 
-function Header() {
-    return (
-        <>
-          <h1>Hello, I am a fish Header</h1>
-        </>
-    );
-}
 
 function App() {
   const [count, setCount] = useState(0)
@@ -42,4 +36,4 @@ function App() {
   )
 }
 
-export default App
+export {App, Header};
